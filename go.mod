@@ -1,13 +1,20 @@
 module github.com/containerd/ttrpc
 
-go 1.12
+go 1.25.0
 
 require (
-	github.com/gogo/protobuf v1.2.1
-	github.com/pkg/errors v0.8.1
-	github.com/prometheus/procfs v0.0.0-20190522114515-bc1a522cf7b1
-	github.com/sirupsen/logrus v1.4.2
-	golang.org/x/sys v0.0.0-20190522044717-8097e1b27ff5
-	google.golang.org/genproto v0.0.0-20190522204451-c2c4e71fbf69
-	google.golang.org/grpc v1.21.0
+	github.com/gogo/protobuf v1.3.2
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/procfs v0.16.0
+	github.com/sirupsen/logrus v1.9.3
+	golang.org/x/sys v0.45.0
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa
+	google.golang.org/grpc v1.83.1
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
+	github.com/stretchr/testify v1.11.1 // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 )
